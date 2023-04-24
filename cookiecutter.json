@@ -1,0 +1,6 @@
+{
+    "full_name": "Your Name",
+    "project_name": "Project Name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "gitlab_repo_url": ""
+}
