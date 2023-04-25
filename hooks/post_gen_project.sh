@@ -14,6 +14,3 @@ venv_{{cookiecutter.project_slug}}/bin/python -m ipykernel install --user --name
 venv_{{cookiecutter.project_slug}}/bin/pip install pip-tools
 venv_{{cookiecutter.project_slug}}/bin/pip-compile requirements_dev.in
 venv_{{cookiecutter.project_slug}}/bin/pip-sync requirements_dev.txt
-
-pre-commit install
-pre-commit autoupdate
